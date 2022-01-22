@@ -1,0 +1,93 @@
+#display_code_results{
+    min-height:100px;
+
+}
+form{
+    display:inline-block;
+}
+* {
+    -webkit-user-select: auto !important;
+    user-select: auto;
+    -webkit-user-drag: none;
+}
+input{
+    -webkit-user-select: auto;
+    user-select: auto;
+    -webkit-user-drag: none;
+}
+
+
+
+#editor-content {
+    width: 100%;
+     font-family: "Lucida Console", Courier, monospace !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 36px;
+    transition-duration: 300ms;
+    white-space: pre;
+}
+
+#editor {
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    font-family: "Lucida Console", Courier, monospace !important;
+
+    border: 1.5px solid #333333;
+    transition-duration: 300ms;
+    white-space: pre;
+    -webkit-user-select: auto;
+    user-select: auto;
+    -webkit-user-drag: none;
+}
+
+.display_code_editor{
+    white-space: pre;
+     width: 100%;
+     height:100px;
+     font-family: "Lucida Console", Courier, monospace !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 36px;
+    transition-duration: 300ms;
+}
+
+#editor .ace_marker-layer .ace_bracket {
+    margin-top: 1px !important;
+    margin-left: 0.5px !important;
+        font-family: "Lucida Console", Courier, monospace !important;
+
+}
+
+#editor *{
+        font-family: "Lucida Console", Courier, monospace !important;
+
+}
+#editor .ace_text-layer .ace_entity {
+    color: #7B2CB3 !important;
+        font-family: "Lucida Console", Courier, monospace !important;
+
+}
+
+
+#editor-control {
+    width: 100%;
+    font-family: "Lucida Console", Courier, monospace !important;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top: 16px;
+    transition-duration: 300ms;
+}

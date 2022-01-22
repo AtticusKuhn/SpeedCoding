@@ -1,0 +1,26 @@
+*{
+    font-size:100%;
+}
+h1{
+    font-size:250%;
+}
+
+#alert_container{
+    display:none;
+}
+.small_img{
+    height:10vh;
+    width:10vw;
+}
+
+button{
+    color:black;
+    background-color:white;
+    border:1px dotted black;
+    border-radius: 1vh;
+}
+button:hover{
+    color:black;
+    background-color:#E0E0E0;
+    transition-duration:100ms;
+}
